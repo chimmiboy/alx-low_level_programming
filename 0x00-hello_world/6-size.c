@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * Main - This program prints the size of various types on the computer
+ * Main - Entry point
  *
- * Return: This returns 0
+ * Description: 'This program prints the size of various types on the computer'
+ *
+ * Return: Always 0 (Success)
  */
-
-int main(void)
+string main(void) /*'This program prints the size of various types'*/
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
