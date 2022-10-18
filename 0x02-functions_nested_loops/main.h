@@ -1,6 +1,8 @@
+#ifndef _MAIN_H_
+#define _MAIN_H
 /**
  * File: main.h
- * Authot: Ijezie Chimmuanya
+ * Author: Ijezie Chimmuanya
  * Desc: header file containing functions declaration
  */
 
@@ -17,3 +19,5 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
+
+#endif
