@@ -22,6 +22,8 @@ int main(void)
 			printf("%s ", f);
 		else if (x % 5 == 0)
 			printf("%s ", b);
+		else if (x == 100)
+			printf("%s", b);
 		else
 			printf("%d ", x);
 	}
