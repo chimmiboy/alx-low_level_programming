@@ -7,9 +7,9 @@
  *
  * Return: the pointer to dest
  */
+
 char *_strcpy(char *dest, char *src)
 {
-
 	int index = 0;
 
 	while (src[index])
@@ -17,6 +17,6 @@ char *_strcpy(char *dest, char *src)
 		dest[index] = src[index];
 		index++;
 	}
-	
+
 	return (dest);
 }
